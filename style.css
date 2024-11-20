@@ -10,8 +10,7 @@ body {
     line-height: 23.46px;
     text-align: left;
     color: #EBF6FE;
-z-index: 5;
-
+z-index: 10000000;
 }
 
 .logo {
