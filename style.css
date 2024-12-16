@@ -261,6 +261,29 @@ cursor:context-menu;
       transform: translateY(-30px);
     }
   }
+
+  @media screen and (max-width: 600px) {
+
+    .list-unstyled 
+    {
+        justify-content: left;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+    .service-item
+    {
+        transition:  0.3s ease;
+    cursor:context-menu;
+    }
+    .service-item:hover
+    {
+        font-size: 1.4rem;
+        transition:  0.3s ease;
+    
+    }
+
+}
+
   /* --------------------------------- */
 .Project
 {
@@ -460,7 +483,7 @@ box-shadow: 0px 19px 130px 0px #33A9F440;
 }
 
 .footer .footer-logo {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #EBF6FE;
 }
@@ -520,3 +543,4 @@ box-shadow: 0px 19px 130px 0px #33A9F440;
 {
     text-align: left;
 }
+
