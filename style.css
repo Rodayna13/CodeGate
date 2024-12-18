@@ -442,10 +442,14 @@ box-shadow: 0px 19px 130px 0px #33A9F440;
     width: 100%;
     margin-bottom: 15px;
 }
-
-::placeholder {
-    color: #777;
-}
+textarea::placeholder {  
+    font-size: 1rem; /* Adjust the size as needed */  
+    color: grey; /* Change the color if desired */  
+}  
+input::placeholder {  
+    font-size: .8rem; /* Adjust the size as needed */  
+    color: grey; /* Change the color if desired */  
+}  
 
 .contact-card button {
     width: 50%;
