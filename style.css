@@ -548,3 +548,11 @@ input::placeholder {
     text-align: left;
 }
 
+#linkedin
+{
+    color: #EBF6FE;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+}
