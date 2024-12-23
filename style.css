@@ -276,7 +276,7 @@ cursor:context-menu;
   /* --------------------------------- */
 .Project
 {
-    min-height: 70vh;
+    min-height: 90vh;
     position: relative;
     align-items: center
 }
