@@ -280,12 +280,11 @@
 <form
   action="https://formspree.io/f/xgvejdyb"
   method="POST"
-  class="formcont"
->
+  class="formcont" id="myForm">
 <div class="row g-2 form-group">
     <div class="col  ">
       
-            <input type="text" class="form-control" placeholder="Name" name="FullName">
+            <input type="text" class="form-control" placeholder="Full Name" name="FullName">
     
         </div>
     <div class="col form-group">
@@ -304,7 +303,7 @@
 <div class="form-group">
     <textarea class="form-control" rows="4" placeholder="Message" name="message"></textarea>
 </div>
-<button type="submit" class="btn btn-primary btn-block">Submit</button>
+<button type="submit" class="btn btn-primary btn-block"  onclick="myFunction()" >Submit</button>
 </form>
 
 </div>
@@ -380,7 +379,15 @@
         
 
     <script src="script.js"></script>
+    <script>
+      function myFunction() {
 
+
+        setTimeout(() => {
+          document.getElementById("myForm").reset();
+        }, 50);
+      }
+      </script>
 </body>
 
 </html>
